@@ -1,0 +1,1 @@
+[print((l:=0,b:=0,e:=0,[(e:=e+1,b:=l,l:=0)if(c in[l,b])else(b:=l,l:= c)for c in input()],e)[-1])for _ in[0]*int(input())]
